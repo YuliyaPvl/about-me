@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-style: normal;
+}
+
+header {
+    background: rgba(62, 60, 60, 0.427);
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color:#000;
+    transition-duration: .5s;
+    padding: 10px 0 10px;
+}
+
+.menu a:hover {
+    color:  #fffdfd90;
+    cursor: pointer;
+}
+
+
+.I {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: rgba(66, 64, 64, 0.902);
+    border-bottom: 1px solid #706e6ee6;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.I p{
+    margin-bottom: 30px;
+}
+
+.social-media{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.social-media h2 {
+    text-align: center;
+}
+
+i {
+    font-size: 1.5rem;
+    color: #0f0f0f;
+    transition-duration: .2s;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+i:hover {
+    transform: scale(2);
+}
+.social-media p{
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+
+h3 {
+    color: rgba(66, 64, 64, 0.686);
+    font-size: 20px;
+    height: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hobby a:hover{
+    text-decoration: underline;
+
+}
+
+
+.hobby {    
+    text-align: center;
+}
+
+.hobby img{
+    margin: 25px auto;
+}
+
+.work {
+    background-image: url('images/work.png');
+    background-repeat: no-repeat;
+    background-size: auto 90%%;
+    background-position: right;
+}
+
+.work p{
+    margin: 30px auto;
+}
+
+.why {
+    background-image: url('images/css.png');
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    background-position: right;
+}
+
+.choice {
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.selection{
+    text-align: center;
+    margin: 15px auto;
+    text-decoration: underline;
+}
+
+
+
+.moments {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+.films a {
+    width: calc((100% - 2 * 24px) / 3);
+    display: inline-block;
+    padding: 30px 50px;
+    transition-duration: .2s;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.films a:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    text-align: center;
+    background: rgba(62, 60, 60, 0.248);
+    border-radius: 15px;
+    height: 50px;
+    line-height: 50px;
+}
